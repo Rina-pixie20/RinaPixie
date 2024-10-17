@@ -1,0 +1,12 @@
+<style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .hero {
+            background-image: url('path_to_your_image.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+        }
+</style>

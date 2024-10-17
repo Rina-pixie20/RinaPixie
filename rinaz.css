@@ -1,0 +1,54 @@
+*{margin: 0;
+padding: 0;
+box-sizing: box-border;
+font-family: sans-serif;
+}
+nav{display: flex;
+height: 80px;
+background-color: pink;
+position: static;
+justify-content: space-between;
+align-items: center;
+}
+nav h1{color: blue;
+   margin-left: 20px;
+}
+nav ul{display: flex;
+align-items:center;
+}
+nav ul li{display:inline-block;
+          color:white;
+		  list-style:none;
+		  margin:20px;
+		  font-size:17px;
+}
+nav ul li a{text-decoration:none;
+color:white;}
+.active{color:red;
+font-weight:bold;
+}
+nav ul li a:hover{color:wheat}
+section {display:flex;
+	background:url(./rrr.jpg);
+width:100%;
+height:fit-content;
+align-items:center;
+height:400px;
+background-position:center;
+background-repeat:no-repeat;
+justify-content:space-around;}
+section h3{
+	color:teal;
+	font-size:40px;
+font-weight:bold;}
+.main{display:flex;
+max-height:80px;}
+.main h2{text-align:center;
+color:black;
+text-transform:uppercase;}
+.main p{
+font-size:12px;}
+video{
+	display:block;}
+
+css
